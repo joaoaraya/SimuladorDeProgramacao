@@ -1,0 +1,169 @@
+*{
+  margin-top: 2px;
+}
+
+body{
+  background-color: #1B1D23;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container{
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Google Sans";
+  src: url('../fonts/GoogleSans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Google Sans Medium";
+  src: url('../fonts/GoogleSans-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#centralizar{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 990px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+}
+
+#card-1{
+  z-index: -2;
+  position: absolute;
+  top: 30px;
+  left: 500px;
+  box-shadow: 0px 12px 25px #0000005c;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#card-2{
+  z-index: -1;
+  position: absolute;
+  top: 60px;
+  left: 495px;
+  box-shadow: 0px 6px 10px #0000005c;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#card-tela{
+  position: absolute;
+  top: 105px;
+  left: 550px;
+  font-family: Google Sans Medium;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #D19A66;
+  text-shadow: 1px 2px #343942;
+}
+
+#card-textbox{
+  position: absolute;
+  top: 290px;
+  left: 520px;
+  font-family: Google Sans Medium;
+  font-size:26px;
+  padding-left: 8px;
+  border: 1px solid #343942;
+  border-radius: 5px;
+  background-color: white;
+  width: 260px;
+}
+
+#card-res{
+  font-family: Google Sans Medium;
+  position: absolute;;
+  top: 370px;
+  left: 550px;
+  font-size:32px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px #202227;
+}
+
+#btnAcao1{
+  position: absolute;
+  top: 290px;
+  left: 790px;
+  width: 130px;
+  height: 43px;
+  border: none;
+  border-radius: 5px;
+  background-color: #9EB2BF;
+  font-family: Google Sans Medium;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #202227;
+}
+
+#btnAcao2{
+  position: absolute;
+  top: 500px;
+  left: 730px;
+  border: none;
+  width: 220px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  background-image: linear-gradient(-35deg, #556270, #ff6b6b);
+  box-shadow: 0px 6px 10px #0000005c;
+  font-family: Google Sans Medium;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 20px;
+}
+
+#console-text{
+  font-family: Google Sans Medium;
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  font-size:26px;
+  letter-spacing: 1px;
+  color:white;
+}
+
+#console-textbox-1,#console-textbox-2,#console-textbox-3,#console-textbox-4{
+  padding-left: 8px;
+  color: #343942;
+  border: 1px solid #343942;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#console-textbox-1{
+  position: relative;
+  left: 60px;
+  width: 380px;
+}
+
+#console-textbox-2{
+  width: 210px;
+}
+
+#console-textbox-3{
+  width: 173px;
+}
+
+#console-textbox-4{
+  width: 173px;
+}
+
+#register{
+  position: absolute;
+  top: 520px;
+  left: 500px;
+  width: 500px;
+  font-family: Google Sans;
+  font-size: 16px;
+  color: #58616D;
+}

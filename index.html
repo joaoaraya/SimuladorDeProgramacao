@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Primeiro CSS para a caracteristicas do site-->
+  <link rel="stylesheet" href="css\reset.css">
+  <!--Arquivo bootstrap (Framework)-->
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+  <!--Leitura do stilo w3-->
+  <link rel="stylesheet" href="css\w3.css">
+  <!--Leitura final do estilo do site-->
+  <link rel="stylesheet" href="css\estilo.css">
+  <title>Programador</title>
+</head>
+<body>
+  <div class="container" id="centralizar">
+    <div class="row">
+      <div class="col-md-12">
+
+        <!--Cartões em destaque-->
+        <img id="card-1" width="440" height="600" src="img/card.png">
+        <img id="card-2" width="450" height="180" src="img/card2.png">
+
+        <!--Conteúdo dentro dos cartões-->
+        <span id="card-tela">1 + 1 =</span>
+        <br/>
+        <input  type="text" id="card-textbox" placeholder="Resposta">
+        <button type="button" onclick="acao1()" id="btnAcao1">TESTAR</button>
+        </br>
+        <span id="card-res">RESULTADO</span>
+        <button type="button" onclick="acao2()" id="btnAcao2">INICIAR</button>
+
+        <!--Consoles-->
+        <span id="console-text">
+          <span style="color:#A7EC21;">&#60;CÓDIGO&#62;</span>
+          <br/>
+          <span style="color:#9DB0BD;">&nbsp; &nbsp; &#60;TELA&#62;</span>
+          </br>
+          <input type="text" id="console-textbox-1" placeholder="Texto que aparece na tela">
+          </br>
+          <span style="color:#9DB0BD;">&nbsp; &nbsp; &#60;/TELA&#62;</span>
+          </br>
+          <span style="color:#52E3F6;">&nbsp; &nbsp; &#60;DIGITAR&#62;</span>
+          </br>
+          <span style="color:#D19A66;">&nbsp; &nbsp; &#60;RESULTADO&#62;</span>
+          </br>
+          <span style="color:white;">&nbsp; &nbsp; &#60;INTELIGÊNCIA&#62;</span>
+          </br>
+          <span style="color:#52E3F6;">&nbsp; &nbsp; &nbsp; &nbsp; SE DIGITAR =</span>
+          <input type="text" id="console-textbox-2" placeholder="Valor/Palavra">
+          </br>
+          <span style="color:#D19A66;">&nbsp; &nbsp; &nbsp; &nbsp; &#60;RESULTADO&#62; =</span>
+          <input type="text" id="console-textbox-3" placeholder="Verdadeiro">
+          </br>
+          <span style="color:#E06C75;">&nbsp; &nbsp; &nbsp; &nbsp; SE NÃO
+          </br>
+          <span style="color:#D19A66;">&nbsp; &nbsp; &nbsp; &nbsp; &#60;RESULTADO&#62; =</span>
+          <input type="text" id="console-textbox-4" placeholder="Falso">
+          </br>
+          <span style="color:white;">&nbsp; &nbsp; &#60;/INTELIGÊNCIA&#62;</span>
+          </br>
+          <span style="color:#A7EC21;">&#60;/CÓDIGO&#62;</span>
+        </span>
+
+        <!-- Registro -->
+        <span id="register">&#x24B8; 2019 <b>João Araya</b>, Etec Adolpho Berezin</span>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Codigo jQuery vem antes do bootstrap-->
+<script type="text/javascript" src="js\jquery-3.3.1.min.js"></script>
+  <!--Javascript do bootstrap-->
+<script type="text/javascript" src="js\bootstrap.min.js"></script>
+  <!--Javascript dessa pagina-->
+<script type="text/javascript" src="js\programador.js"></script>
+
+</body>
+</html>
